@@ -1,6 +1,6 @@
 namespace Itmo.ObjectOrientedProgramming.Lab5.Presentation.Contracts.Accounts;
 
-public class BalanceRequest
+public class BalanceResponse
 {
-    public Guid UserSessionKey { get; set; }
+    public decimal Balance { get; set; }
 }
